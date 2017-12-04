@@ -9,3 +9,5 @@
 ## use
 
 `running:` `npm start`
+
+![demo gif]('./1.gif')
