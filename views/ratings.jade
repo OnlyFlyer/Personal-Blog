@@ -1,8 +1,13 @@
-extends layout
-
-block content
-  h1= title
-  p this is #{title} page
-  #container
-    span= sec
-    h1= info
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/common.css')
+    link(rel='stylesheet', href='/stylesheets/ratings.css')
+  body
+    block content
+      h1= title
+      p this is #{title} page
+      #container
+        span= sec
+        h1= info

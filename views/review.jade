@@ -1,8 +1,31 @@
-extends layout
-
-block content
-  h1= title
-  p this is #{title} page
-  #container
-    span= sec
-    h1= info
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/common.css')
+    link(rel='stylesheet', href='/stylesheets/review.css')
+  body
+    block content
+      ul#headContainer
+        li= '首页'
+        li= '个人简历'
+        li= '个人博客'
+        li= '给我留言'
+        li= '好文'
+      h1#cc= title
+      p this is #{title} page
+      #container
+        span= sec
+        h1= info
+      #container
+        span= sec
+        h1= info
+      #container
+        span= sec
+        h1= info
+      #container
+        span= sec
+        h1= info
+      #container
+        span= sec
+        h1= info
