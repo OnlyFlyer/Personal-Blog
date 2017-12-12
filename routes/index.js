@@ -12,4 +12,14 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express', name: 'FrankWu', imgSrc: '/images/me.jpg'});
 });
 
+/* GET rating page. */
+router.get('/ratings', function(req, res, next) {
+  res.render('ratings', { title: 'ratings', sec: 'selecte', info: '哈哈, 进入了rating页'});
+});
+
+/* GET review page. */
+router.get('/review', function(req, res, next) {
+  res.render('review', { title: 'review', sec: 'selecte', info: '哈哈, 进入了review页'});
+});
+
 module.exports = router;
