@@ -9,7 +9,7 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', name: 'FrankWu', imgSrc: '/images/me.jpg'});
+  res.render('index', { title: 'Frank Wu', name: 'Frank Wu', hobby: 'Code && Games', jsSrc: '/javascripts/canvas.js'});
 });
 
 /* GET rating page. */
