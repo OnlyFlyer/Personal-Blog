@@ -6,13 +6,14 @@ html
     link(rel='stylesheet', href='/stylesheets/index.css')
     link(rel="shortcut icon" href='/images/fav.ico')
   body
-    ul#nav
-      li='主页'
-      li='个人简历'
-      li='心得笔记'
-      li='个人日记'
-      li='搜索框'
-      li='分类'
+    div#navContainer
+      ul#nav
+        li='主页'
+        li='个人简历'
+        li='心得笔记'
+        li='个人日记'
+        li='搜索框'
+        li='分类'
     h1= title
     p Welcome to #{title}
     h2= name
