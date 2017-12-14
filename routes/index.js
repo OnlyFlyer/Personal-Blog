@@ -12,14 +12,24 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Frank Wu', name: 'Frank Wu', hobby: 'Code && Games', jsSrc: '/javascripts/canvas.js'});
 });
 
-/* GET rating page. */
-router.get('/ratings', function(req, res, next) {
-  res.render('ratings', { title: 'ratings', sec: 'selecte', info: '哈哈, 进入了rating页'});
+/* GET blog page. */
+router.get('/blog', function(req, res, next) {
+  res.render('blog', { title: 'Frank Wu' });
 });
 
-/* GET review page. */
-router.get('/review', function(req, res, next) {
-  res.render('review', { title: 'review', sec: 'selecte', info: '哈哈, 进入了review页'});
+/* GET about me page. */
+router.get('/me', function(req, res, next) {
+  res.render('me', { title: 'Frank Wu' });
 });
+
+// /* GET rating page. */
+// router.get('/ratings', function(req, res, next) {
+//   res.render('ratings', { title: 'Frank Wu', sec: 'selecte', info: '哈哈, 进入了rating页'});
+// });
+
+// /* GET review page. */
+// router.get('/review', function(req, res, next) {
+//   res.render('review', { title: 'Frank Wu', sec: 'selecte', info: '哈哈, 进入了review页'});
+// });
 
 module.exports = router;

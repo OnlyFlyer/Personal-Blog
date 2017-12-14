@@ -1,0 +1,17 @@
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background: #ffffff;
+}
+
+#wrapper a {
+  display: block;
+  height: 50px;
+  color: '#eee';
+  background: hsl(88, 100%, 50%);
+}
+
+a:hover {
+  color: #ff0000;
+}
