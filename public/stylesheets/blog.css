@@ -1,15 +1,27 @@
+nav {
+  width: 100%;
+  height: 40px;
+  background: #eee;
+}
+
 #wrapper {
+  height: 40px;
   display: flex;
   flex-direction: row;
   text-align: center;
-  background: #ffffff;
+  line-height: 40px;
+  /* background: #ffffff; */
 }
 
-#wrapper a {
-  display: block;
-  height: 50px;
-  color: '#eee';
-  background: hsl(88, 100%, 50%);
+#wrapper li {
+  width: 100px;
+  height: 40px;
+  /* align-items: flex-end; */
+  /* justify-content: flex-end; */
+}
+
+#wrapper li a {
+  height: 40px;
 }
 
 a:hover {
