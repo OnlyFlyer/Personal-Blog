@@ -17,6 +17,7 @@
 ```lib
 
 ├─ /views/index.jade                 # home(主页)
+│   ├─── /views/blog.jade            # blog(博客页)
 │   ├─── /views/ratings.jade            # ratings(评论页)
 │   ├─── /views/review.jade             # review(回复页)
 │   ├─── /views/details.jade            # details(详情页)
