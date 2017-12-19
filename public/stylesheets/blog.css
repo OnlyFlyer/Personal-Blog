@@ -6,22 +6,39 @@ nav {
 
 #wrapper {
   height: 40px;
+  line-height: 40px;  
   display: flex;
   flex-direction: row;
   text-align: center;
-  line-height: 40px;
   /* background: #ffffff; */
 }
 
 #wrapper li {
-  width: 100px;
+  width: 100%;
   height: 40px;
+  font-size: 15px;
+  font-family: 'PingFangSC-Regular', 'Arial Narrow', Arial, sans-serif;
   /* align-items: flex-end; */
   /* justify-content: flex-end; */
 }
 
 #wrapper li a {
   height: 40px;
+}
+
+#right {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+#right img {
+  width: 20px;
+  height: 20px;
+}
+
+#right input {
+  color: #F00;
 }
 
 a:hover {
