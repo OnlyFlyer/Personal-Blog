@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
 
 /* GET blog page. */
 router.get('/blog', function(req, res, next) {
-  res.render('blog', { title: 'Frank Wu', imgSrc: '/images/search.png' });
+  res.render('blog', { title: 'Frank Wu', imgSrc: '/images/search.png', logoSrc: '/images/logo.jpg' });
 });
 
 /* GET about me page. */
