@@ -40,23 +40,34 @@ nav {
 
 #navRight {
   height: 60px;
-  margin: 0 0 0 5px;
+  /* line-height: 60px; */
+  margin: 0 0 0 20px;
   float: left;
   /* line-height: 60px; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
   text-align: center;
+}
+
+#navWrapper {
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background: #fff;
 }
 
 #navRight #navWrapper img {
   width: 20px;
   height: 20px;
+  margin-right: 5px;
 }
 
-#navWrapper {
-  height: 30px;
-  background: #00ff00;
-}
 
 #navRight input {
+  height: 25px;
   color: #F00;
 }
 
